@@ -153,20 +153,5 @@ Last-mile-logistics-audit/
 
 ---
 
-## Submission Checklist
-
-- [x] GitHub Repo is Public
-- [x] `.ipynb` notebook uploaded
-- [x] HTML export uploaded
-- [x] Raw dataset NOT uploaded
-- [x] Code uses relative paths
-- [x] Dashboard publicly accessible (no login required)
-- [x] Presentation link publicly accessible
-- [x] README updated with Executive Summary
-- [x] User Stories 1–4 completed
-- [x] Candidate's Choice completed and justified
-
----
-
 **Dataset:** [Kaggle — Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
 **Tools:** Python · Pandas · Matplotlib · Seaborn · GeoPandas · Streamlit · Google Colab
