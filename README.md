@@ -20,7 +20,7 @@
 
 This project audits last-mile delivery performance for **Veridi Logistics** using the real-world **Olist Brazilian E-Commerce Dataset** (96,478 delivered orders across 27 states, Oct 2016 – Aug 2018).
 
-The analysis proves that **delivery delays are not a nationwide problem** — they are concentrated in 5 Northeast states and predictable seasonal windows. Super Late deliveries cause review scores to collapse from **4.29 → 1.79 / 5**, confirming logistics is the primary driver of customer dissatisfaction.
+The analysis proves that **delivery delays are not a nationwide problem** they are concentrated in 5 Northeast states and predictable seasonal windows. Super Late deliveries cause review scores to collapse from **4.29 → 1.79 / 5**, confirming logistics is the primary driver of customer dissatisfaction.
 
 | Finding | Detail |
 |---|---|
@@ -91,7 +91,7 @@ Result: 96,478 clean rows, 27 states
 ### Story 1 — Schema Builder
 Joined Orders + Reviews + Customers into a single master dataset.
 - Reviews deduplicated by `order_id` before merging to prevent row duplication
-- Verified: `len(master) == len(orders)` — no duplicates introduced
+- Verified: `len(master) == len(orders)` no duplicates introduced
 
 ### Story 2 — Delay Calculator
 ```python
@@ -122,7 +122,7 @@ Super Late: days_difference < -5
 ## Candidate's Choice Additions
 
 ### Choice 1 — Seasonality Analysis
-**Why it matters:** Knowing *when* delays spike allows Veridi to pre-position stock and increase carrier capacity **2–3 weeks before** Black Friday and Carnival — preventing spikes instead of reacting after the damage is done.
+**Why it matters:** Knowing *when* delays spike allows Veridi to pre-position stock and increase carrier capacity **2–3 weeks before** Black Friday and Carnival preventing spikes instead of reacting after the damage is done.
 
 The March 2018 peak (21.4%) likely reflects a compounded post-Carnival backlog. Staffing recovery plans should extend 4–6 weeks after the holiday period.
 
