@@ -5,7 +5,7 @@
 
 ---
 
-## 🔗 Project Links
+## Project Links
 
 | Deliverable | Link |
 |---|---|
@@ -35,7 +35,7 @@ The analysis proves that **delivery delays are not a nationwide problem** they a
 
 ## Key Insights
 
-### 1. Geographic Disparity — Not a Nationwide Problem
+### 1. Geographic Disparity : Not a Nationwide Problem
 Northeast states are **systematically underserved**, with late rates up to 4× higher than São Paulo:
 
 | State | Late Rate | Status |
