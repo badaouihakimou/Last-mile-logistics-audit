@@ -1,5 +1,5 @@
 # Last Mile Logistics Auditor
-### Veridi Logistics — Delivery Performance & Customer Satisfaction Audit
+### Veridi Logistics Delivery Performance & Customer Satisfaction Audit
 
 > **"Are we failing specific regions, or is this a nationwide problem?"**  Veridi CEO
 
@@ -9,7 +9,7 @@
 
 | Deliverable | Link |
 |---|---|
-| **Live Dashboard** | [Veridi Logistics Audit — Streamlit](https://last-mile-logistics-audit-ehhuvcwrvw6zxot5wvtqgz.streamlit.app/) |
+| **Dashboard** | [Veridi Logistics Audit — Streamlit](https://last-mile-logistics-audit-ehhuvcwrvw6zxot5wvtqgz.streamlit.app/) |
 | **Notebook** | [Google Colab](#) *(https://colab.research.google.com/drive/1AwUnp679FxzrCE2CGWaaKeyxAYWZfE2c?usp=sharing)* |
 | **HTML Export** | https://htmlpreview.github.io/?https://github.com/badaouihakimou/Last-mile-logistics-audit/blob/main/Amalitech_Test.html |
 | **Presentation** | https://docs.google.com/presentation/d/1wHkfYZKUvrhDMYI5lkwo79ZERZEHP9_Y/edit?usp=sharing&ouid=116024441528839692021&rtpof=true&sd=true |
@@ -33,7 +33,7 @@ The analysis proves that **delivery delays are not a nationwide problem** — th
 
 ---
 
-## 📊 Key Insights
+## Key Insights
 
 ### 1. Geographic Disparity — Not a Nationwide Problem
 Northeast states are **systematically underserved**, with late rates up to 4× higher than São Paulo:
