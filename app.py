@@ -242,6 +242,14 @@ def img(name):
     return Image.open(path) if os.path.exists(path) else None
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
+
+# Debug
+import requests
+test_url = "https://raw.githubusercontent.com/badaouihakimou/Last-mile-logistics-audit/main/assets/choropleth_map.png"
+r = requests.get(test_url)
+st.write(f"Image test status: {r.status_code}")
+st.write(f"Assets URL: {GITHUB_RAW}")
+
 with st.sidebar:
     st.markdown("### 📦 Veridi Logistics")
     st.markdown("<div style='font-size:0.75rem;color:#8b949e;margin-bottom:1.5rem;'>Delivery Performance Audit</div>", unsafe_allow_html=True)
