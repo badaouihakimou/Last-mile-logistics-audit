@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 import os
 
 # ── Asset path ───────────────────────────────────────────────────────────────
@@ -242,14 +241,6 @@ def img(name):
     return Image.open(path) if os.path.exists(path) else None
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
-
-# Debug
-import requests
-test_url = "https://raw.githubusercontent.com/badaouihakimou/Last-mile-logistics-audit/main/assets/choropleth_map.png"
-r = requests.get(test_url)
-st.write(f"Image test status: {r.status_code}")
-st.write(f"Assets URL: {GITHUB_RAW}")
-
 with st.sidebar:
     st.markdown("### 📦 Veridi Logistics")
     st.markdown("<div style='font-size:0.75rem;color:#8b949e;margin-bottom:1.5rem;'>Delivery Performance Audit</div>", unsafe_allow_html=True)
@@ -392,7 +383,7 @@ elif "Delivery Status" in page:
 
     image = img("delivery_status_overview.png")
     if image:
-        st.image(image, use_container_width=True)
+        st.image(image, use_column_width=True)
 
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -447,19 +438,19 @@ elif "Geographic" in page:
         st.markdown("<div style='font-size:0.85rem;color:#8b949e;margin-bottom:0.75rem;'>On Time / Late / Super Late rates by state — the darker the red, the more critical the region.</div>", unsafe_allow_html=True)
         image = img("choropleth_map.png")
         if image:
-            st.image(image, use_container_width=True)
+            st.image(image, use_column_width=True)
 
     with tab2:
         st.markdown("<div style='font-size:0.85rem;color:#8b949e;margin-bottom:0.75rem;'>States ranked by late delivery rate. Red = Critical (≥15%), Orange = Warning (10–15%), Green = OK (&lt;10%).</div>", unsafe_allow_html=True)
         image = img("late_delivery_by_state.png")
         if image:
-            st.image(image, use_container_width=True)
+            st.image(image, use_column_width=True)
 
     with tab3:
         st.markdown("<div style='font-size:0.85rem;color:#8b949e;margin-bottom:0.75rem;'>States with high volume (SP) still perform well. High late rates are concentrated in low-volume remote states.</div>", unsafe_allow_html=True)
         image = img("geographic_bubble.png")
         if image:
-            st.image(image, use_container_width=True)
+            st.image(image, use_column_width=True)
 
     st.markdown("<hr class='divider'>", unsafe_allow_html=True)
 
@@ -527,7 +518,7 @@ elif "Sentiment" in page:
     st.markdown("<div style='margin-top:1.25rem;'>", unsafe_allow_html=True)
     image = img("sentiment_analysis.png")
     if image:
-        st.image(image, use_container_width=True)
+        st.image(image, use_column_width=True)
     st.markdown("</div>", unsafe_allow_html=True)
 
     st.markdown("<hr class='divider'>", unsafe_allow_html=True)
@@ -536,7 +527,7 @@ elif "Sentiment" in page:
 
     image2 = img("review_distribution.png")
     if image2:
-        st.image(image2, use_container_width=True)
+        st.image(image2, use_column_width=True)
 
     st.markdown("""
     <div class='insight danger'>
@@ -588,7 +579,7 @@ elif "Seasonality" in page:
     st.markdown("<div style='margin-top:1.25rem;'>", unsafe_allow_html=True)
     image = img("seasonality_analysis.png")
     if image:
-        st.image(image, use_container_width=True)
+        st.image(image, use_column_width=True)
     st.markdown("</div>", unsafe_allow_html=True)
 
     st.markdown("""
