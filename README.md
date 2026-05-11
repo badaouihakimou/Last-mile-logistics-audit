@@ -66,7 +66,7 @@ Recurring high-risk windows that can be anticipated and prevented:
 |---|---|---|
 | Black Friday | Nov 2017 | 14.3% |
 | Carnival | Feb 2018 | 16.0% |
-| Post-Carnival Peak | Mar 2018 | **21.4% ** |
+| Post-Carnival Peak | Mar 2018 | 21.4% |
 
 ---
 
