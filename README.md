@@ -1,7 +1,7 @@
-# 📦 Last Mile Logistics Auditor
+# Last Mile Logistics Auditor
 ### Veridi Logistics — Delivery Performance & Customer Satisfaction Audit
 
-> **"Are we failing specific regions, or is this a nationwide problem?"** — Veridi CEO
+> **"Are we failing specific regions, or is this a nationwide problem?"**  Veridi CEO
 
 ---
 
@@ -9,14 +9,14 @@
 
 | Deliverable | Link |
 |---|---|
-| 📊 **Live Dashboard** | [Veridi Logistics Audit — Streamlit](https://last-mile-logistics-audit-ehhuvcwrvw6zxot5wvtqgz.streamlit.app/) |
-| 📓 **Notebook** | [Google Colab](#) *(https://colab.research.google.com/drive/1AwUnp679FxzrCE2CGWaaKeyxAYWZfE2c?usp=sharing)* |
-| 🌐 **HTML Export** | https://htmlpreview.github.io/?https://github.com/badaouihakimou/Last-mile-logistics-audit/blob/main/Amalitech_Test.html |
-| 📑 **Presentation** | https://docs.google.com/presentation/d/1wHkfYZKUvrhDMYI5lkwo79ZERZEHP9_Y/edit?usp=sharing&ouid=116024441528839692021&rtpof=true&sd=true |
+| **Live Dashboard** | [Veridi Logistics Audit — Streamlit](https://last-mile-logistics-audit-ehhuvcwrvw6zxot5wvtqgz.streamlit.app/) |
+| **Notebook** | [Google Colab](#) *(https://colab.research.google.com/drive/1AwUnp679FxzrCE2CGWaaKeyxAYWZfE2c?usp=sharing)* |
+| **HTML Export** | https://htmlpreview.github.io/?https://github.com/badaouihakimou/Last-mile-logistics-audit/blob/main/Amalitech_Test.html |
+| **Presentation** | https://docs.google.com/presentation/d/1wHkfYZKUvrhDMYI5lkwo79ZERZEHP9_Y/edit?usp=sharing&ouid=116024441528839692021&rtpof=true&sd=true |
 
 ---
 
-## 🧭 Executive Summary
+## Executive Summary
 
 This project audits last-mile delivery performance for **Veridi Logistics** using the real-world **Olist Brazilian E-Commerce Dataset** (96,478 delivered orders across 27 states, Oct 2016 – Aug 2018).
 
@@ -24,12 +24,12 @@ The analysis proves that **delivery delays are not a nationwide problem** — th
 
 | Finding | Detail |
 |---|---|
-| 🟢 On Time Rate | **91.9%** — 88,644 orders |
-| 🟡 Late Rate | **3.7%** — 3,615 orders (1–5 days delay) |
-| 🔴 Super Late Rate | **4.4%** — 4,219 orders (>5 days delay) |
-| 🗺️ Worst State | **AL (Alagoas) — 23.9% late** |
-| 🏆 Best State | **RO (Rondônia) — 2.9% late** |
-| 📅 Peak Month | **March 2018 — 21.4% late** |
+| On Time Rate | **91.9%** — 88,644 orders |
+| Late Rate | **3.7%** — 3,615 orders (1–5 days delay) |
+| Super Late Rate | **4.4%** — 4,219 orders (>5 days delay) |
+| Worst State | **AL (Alagoas) — 23.9% late** |
+| Best State | **RO (Rondônia) — 2.9% late** |
+| Peak Month | **March 2018 — 21.4% late** |
 
 ---
 
@@ -40,13 +40,13 @@ Northeast states are **systematically underserved**, with late rates up to 4× h
 
 | State | Late Rate | Status |
 |---|---|---|
-| AL — Alagoas | 23.9% | 🔴 Critical |
-| MA — Maranhão | 19.7% | 🔴 Critical |
-| PI — Piauí | 16.0% | 🔴 Critical |
-| CE — Ceará | 15.3% | 🔴 Critical |
-| SE — Sergipe | 15.2% | 🔴 Critical |
-| SP — São Paulo | 5.9% | 🟢 OK |
-| RO — Rondônia | 2.9% | 🟢 Best |
+| AL — Alagoas | 23.9% | Critical |
+| MA — Maranhão | 19.7% | Critical |
+| PI — Piauí | 16.0% | Critical |
+| CE — Ceará | 15.3% | Critical |
+| SE — Sergipe | 15.2% | Critical |
+| SP — São Paulo | 5.9% | OK |
+| RO — Rondônia | 2.9% | Best |
 
 ### 2. Delay Destroys Customer Satisfaction
 A direct and measurable correlation between delays and negative reviews:
@@ -64,13 +64,13 @@ Recurring high-risk windows that can be anticipated and prevented:
 
 | Event | Month | Late Rate |
 |---|---|---|
-| Black Friday | Nov 2017 | 14.3% 🟡 |
-| Carnival | Feb 2018 | 16.0% 🔴 |
-| Post-Carnival Peak | Mar 2018 | **21.4% 🔴** |
+| Black Friday | Nov 2017 | 14.3% |
+| Carnival | Feb 2018 | 16.0% |
+| Post-Carnival Peak | Mar 2018 | **21.4% ** |
 
 ---
 
-## 🛠️ Technical Approach
+## Technical Approach
 
 ### Data Pipeline
 
@@ -119,7 +119,7 @@ Super Late: days_difference < -5
 
 ---
 
-## 💡 Candidate's Choice Additions
+## Candidate's Choice Additions
 
 ### Choice 1 — Seasonality Analysis
 **Why it matters:** Knowing *when* delays spike allows Veridi to pre-position stock and increase carrier capacity **2–3 weeks before** Black Friday and Carnival — preventing spikes instead of reacting after the damage is done.
@@ -131,7 +131,7 @@ The March 2018 peak (21.4%) likely reflects a compounded post-Carnival backlog. 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Last-mile-logistics-audit/
@@ -153,7 +153,7 @@ Last-mile-logistics-audit/
 
 ---
 
-## ✅ Submission Checklist
+## Submission Checklist
 
 - [x] GitHub Repo is Public
 - [x] `.ipynb` notebook uploaded
