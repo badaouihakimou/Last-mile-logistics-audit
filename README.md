@@ -127,7 +127,7 @@ Super Late: days_difference < -5
 The March 2018 peak (21.4%) likely reflects a compounded post-Carnival backlog. Staffing recovery plans should extend 4–6 weeks after the holiday period.
 
 ### Choice 2 : Review Score Distribution Deep Dive
-**Why it matters:** Averages can hide severity. This analysis reveals that Super Late orders don't just lower the average — they generate a **1-star majority** (>60% of customers). This is a concrete severity metric that justifies infrastructure investment in the Northeast region to Veridi's CEO.
+**Why it matters:** Averages can hide severity. This analysis reveals that Super Late orders don't just lower the average they generate a **1-star majority** (>60% of customers). This is a concrete severity metric that justifies infrastructure investment in the Northeast region to Veridi's CEO.
 
 ---
 
