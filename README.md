@@ -40,13 +40,13 @@ Northeast states are **systematically underserved**, with late rates up to 4× h
 
 | State | Late Rate | Status |
 |---|---|---|
-| AL — Alagoas | 23.9% | Critical |
-| MA — Maranhão | 19.7% | Critical |
-| PI — Piauí | 16.0% | Critical |
-| CE — Ceará | 15.3% | Critical |
-| SE — Sergipe | 15.2% | Critical |
-| SP — São Paulo | 5.9% | OK |
-| RO — Rondônia | 2.9% | Best |
+| AL : Alagoas | 23.9% | Critical |
+| MA : Maranhão | 19.7% | Critical |
+| PI : Piauí | 16.0% | Critical |
+| CE : Ceará | 15.3% | Critical |
+| SE : Sergipe | 15.2% | Critical |
+| SP : São Paulo | 5.9% | OK |
+| RO : Rondônia | 2.9% | Best |
 
 ### 2. Delay Destroys Customer Satisfaction
 A direct and measurable correlation between delays and negative reviews:
@@ -57,7 +57,7 @@ A direct and measurable correlation between delays and negative reviews:
 | Late | **3.46 / 5** | −19% |
 | Super Late | **1.79 / 5** | −58% |
 
-> Over **60% of Super Late customers give a 1-star review** — the distribution completely inverts compared to On Time orders.
+> Over **60% of Super Late customers give a 1-star review** the distribution completely inverts compared to On Time orders.
 
 ### 3. Predictable Seasonal Spikes
 Recurring high-risk windows that can be anticipated and prevented:
@@ -88,12 +88,12 @@ Recurring high-risk windows that can be anticipated and prevented:
 Result: 96,478 clean rows, 27 states
 ```
 
-### Story 1 — Schema Builder
+### Story 1 : Schema Builder
 Joined Orders + Reviews + Customers into a single master dataset.
 - Reviews deduplicated by `order_id` before merging to prevent row duplication
 - Verified: `len(master) == len(orders)` no duplicates introduced
 
-### Story 2 — Delay Calculator
+### Story 2 : Delay Calculator
 ```python
 days_difference = order_estimated_delivery_date - order_delivered_customer_date
 
@@ -104,29 +104,29 @@ Super Late: days_difference < -5
 - Excluded non-delivered orders (`order_status ≠ 'delivered'`)
 - Handled missing values in delivery timestamps
 
-### Story 3 — Geographic Heatmap
+### Story 3 : Geographic Heatmap
 - Computed late delivery % per Brazilian state
 - Visualized with 3 chart types: bar chart, bubble chart, and choropleth map (GeoPandas)
 - Insight: Remote Northeast states disproportionately affected — geographic distance from São Paulo distribution hub is a key factor
 
-### Story 4 — Sentiment Correlation
+### Story 4 : Sentiment Correlation
 - Computed average review score by delivery status
 - Visualized with bar chart, boxplot, and scatter plot (delay days vs review score)
 - Confirmed: strong negative correlation between delay and satisfaction
 
-### Bonus — PT → EN Translation
+### Bonus : PT → EN Translation
 - Merged `product_category_name_translation.csv` to translate all Portuguese category names to English
 
 ---
 
 ## Candidate's Choice Additions
 
-### Choice 1 — Seasonality Analysis
+### Choice 1 : Seasonality Analysis
 **Why it matters:** Knowing *when* delays spike allows Veridi to pre-position stock and increase carrier capacity **2–3 weeks before** Black Friday and Carnival preventing spikes instead of reacting after the damage is done.
 
 The March 2018 peak (21.4%) likely reflects a compounded post-Carnival backlog. Staffing recovery plans should extend 4–6 weeks after the holiday period.
 
-### Choice 2 — Review Score Distribution Deep Dive
+### Choice 2 : Review Score Distribution Deep Dive
 **Why it matters:** Averages can hide severity. This analysis reveals that Super Late orders don't just lower the average — they generate a **1-star majority** (>60% of customers). This is a concrete severity metric that justifies infrastructure investment in the Northeast region to Veridi's CEO.
 
 ---
