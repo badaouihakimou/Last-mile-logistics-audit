@@ -2,6 +2,10 @@ import streamlit as st
 from PIL import Image
 import os
 
+# ── Asset path — works on Streamlit Cloud and locally ────────────────────────
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ASSETS   = os.path.join(BASE_DIR, "assets")
+
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Veridi Logistics — Delivery Audit",
@@ -234,8 +238,6 @@ section[data-testid="stSidebar"] .stRadio label {
 """, unsafe_allow_html=True)
 
 # ── Asset loader ───────────────────────────────────────────────────────────────
-ASSETS = os.path.join(os.path.dirname(__file__), "assets")
-
 def img(name):
     path = os.path.join(ASSETS, name)
     return Image.open(path) if os.path.exists(path) else None
