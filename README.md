@@ -10,7 +10,7 @@
 | Deliverable | Link |
 |---|---|
 | 📊 **Live Dashboard** | [Veridi Logistics Audit — Streamlit](https://last-mile-logistics-audit-ehhuvcwrvw6zxot5wvtqgz.streamlit.app/) |
-| 📓 **Notebook** | [Google Colab](#) *(add your Colab link)* |
+| 📓 **Notebook** | [Google Colab](#) *(https://colab.research.google.com/drive/1AwUnp679FxzrCE2CGWaaKeyxAYWZfE2c?usp=sharing)* |
 | 🌐 **HTML Export** | [Amalitech_Test.html](https://github.com/badaouihakimou/Last-mile-logistics-audit/blob/main/Amalitech_Test.html) |
 | 📑 **Presentation** | [Amalitech.pptx](https://github.com/badaouihakimou/Last-mile-logistics-audit/blob/main/Amalitech.pptx) |
 
