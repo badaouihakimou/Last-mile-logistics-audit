@@ -20,7 +20,7 @@
 
 This project audits last-mile delivery performance for **Veridi Logistics** using the real-world **Olist Brazilian E-Commerce Dataset** (96,478 delivered orders across 27 states, Oct 2016 – Aug 2018).
 
-The analysis proves that **delivery delays are not a nationwide problem** they are concentrated in 5 Northeast states and predictable seasonal windows. Super Late deliveries cause review scores to collapse from **4.29 → 1.79 / 5**, confirming logistics is the primary driver of customer dissatisfaction.
+The analysis proves that **delivery delays are not a nationwide problem** they are concentrated in 5 Northeast states and predictable seasonal windows. Super Late deliveries cause review scores to collapse from **4.29 to 1.79 / 5**, confirming logistics is the primary driver of customer dissatisfaction.
 
 | Finding | Detail |
 |---|---|
