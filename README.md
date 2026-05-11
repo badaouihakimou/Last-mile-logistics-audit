@@ -25,11 +25,11 @@ The analysis proves that **delivery delays are not a nationwide problem** they a
 | Finding | Detail |
 |---|---|
 | On Time Rate | **91.9%** : 88,644 orders |
-| Late Rate | **3.7%** — 3,615 orders (1–5 days delay) |
-| Super Late Rate | **4.4%** — 4,219 orders (>5 days delay) |
-| Worst State | **AL (Alagoas) — 23.9% late** |
-| Best State | **RO (Rondônia) — 2.9% late** |
-| Peak Month | **March 2018 — 21.4% late** |
+| Late Rate | **3.7%** : 3,615 orders (1–5 days delay) |
+| Super Late Rate | **4.4%** : 4,219 orders (>5 days delay) |
+| Worst State | **AL (Alagoas) : 23.9% late** |
+| Best State | **RO (Rondônia) : 2.9% late** |
+| Peak Month | **March 2018 : 21.4% late** |
 
 ---
 
