@@ -2,9 +2,8 @@ import streamlit as st
 from PIL import Image
 import os
 
-# ── Asset path — works on Streamlit Cloud and locally ────────────────────────
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-ASSETS   = os.path.join(BASE_DIR, "assets")
+# ── Asset path ───────────────────────────────────────────────────────────────
+GITHUB_RAW = "https://raw.githubusercontent.com/badaouihakimou/Last-mile-logistics-audit/main/assets"
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
