@@ -11,7 +11,7 @@
 |---|---|
 | 📊 **Live Dashboard** | [Veridi Logistics Audit — Streamlit](https://last-mile-logistics-audit-ehhuvcwrvw6zxot5wvtqgz.streamlit.app/) |
 | 📓 **Notebook** | [Google Colab](#) *(https://colab.research.google.com/drive/1AwUnp679FxzrCE2CGWaaKeyxAYWZfE2c?usp=sharing)* |
-| 🌐 **HTML Export** | https://nbviewer.org/github/badaouihakimou/Last-mile-logistics-audit/blob/main/Amalitech_Test.html |
+| 🌐 **HTML Export** | https://htmlpreview.github.io/?https://github.com/badaouihakimou/Last-mile-logistics-audit/blob/main/Amalitech_Test.html |
 | 📑 **Presentation** | [Amalitech.pptx](https://github.com/badaouihakimou/Last-mile-logistics-audit/blob/main/Amalitech.pptx) |
 
 ---
